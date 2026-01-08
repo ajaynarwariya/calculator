@@ -30,7 +30,7 @@ print("4.Divide")
 print("5.modulo")
 print("6.floordivision")
 print("7.exponentiation")
-choice = int(input("Enter a choice for operation(1,2,3,4,5,6,7): "))
+choice = int(input("Enter your choice  for operation(1,2,3,4,5,6,7): "))
 match choice:
     case 1:
        print(addition(num1,num2))
